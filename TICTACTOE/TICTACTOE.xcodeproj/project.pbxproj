@@ -103,15 +103,13 @@
 		3FCFFEA125E820F700D6F2B3 /* TICTACTOE */ = {
 			isa = PBXGroup;
 			children = (
+				3FCFFF0525E953F700D6F2B3 /* Controller */,
+				3FCFFF0425E953E100D6F2B3 /* View */,
 				3FCFFEA225E820F700D6F2B3 /* AppDelegate.swift */,
 				3FCFFEA425E820F700D6F2B3 /* SceneDelegate.swift */,
-				3FCFFEA625E820F700D6F2B3 /* ViewController.swift */,
-				3FCFFEA825E820F700D6F2B3 /* Main.storyboard */,
-				3FCFFEEA25E825F600D6F2B3 /* WithPlayer.swift */,
 				3FCFFEAB25E820FE00D6F2B3 /* Assets.xcassets */,
 				3FCFFEAD25E820FE00D6F2B3 /* LaunchScreen.storyboard */,
 				3FCFFEB025E820FE00D6F2B3 /* Info.plist */,
-				3FCFFEEF25E828CB00D6F2B3 /* WithComputerController.swift */,
 			);
 			path = TICTACTOE;
 			sourceTree = "<group>";
@@ -132,6 +130,24 @@
 				3FCFFEC625E820FF00D6F2B3 /* Info.plist */,
 			);
 			path = TICTACTOEUITests;
+			sourceTree = "<group>";
+		};
+		3FCFFF0425E953E100D6F2B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFFEA825E820F700D6F2B3 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3FCFFF0525E953F700D6F2B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FCFFEA625E820F700D6F2B3 /* ViewController.swift */,
+				3FCFFEEA25E825F600D6F2B3 /* WithPlayer.swift */,
+				3FCFFEEF25E828CB00D6F2B3 /* WithComputerController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
